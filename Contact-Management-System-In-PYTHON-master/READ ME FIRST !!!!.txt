@@ -1,0 +1,25 @@
+Contact Management System
+This is a simple Contact Management System developed using Python's tkinter library and SQLite database. The application allows users to manage their contacts by adding, updating, and deleting contact information.
+
+Features
+Add new contacts: Users can add new contacts with details such as Firstname, Lastname, Gender, Age, Address, and Contact number.
+Update contacts: Users can update existing contacts with new information.
+Delete contacts: Users can delete selected contacts from the system.
+View contacts: The application displays all contacts in a tabular format for easy viewing and management.
+Prerequisites
+Python (tested with Python 3.x)
+tkinter (usually included with Python)
+How to Run
+Make sure you have Python and tkinter installed on your system.
+Save the provided code in a Python file.
+Open a terminal or command prompt and navigate to the directory containing the Python file.
+Run the script using the following command:
+python index.py
+The Contact Management System window will open, allowing you to manage your contacts.
+Usage
+Add New Contact: Click on the "+ ADD NEW" button to open a new window where you can enter details for a new contact. Click the "Save" button to add the contact to the system.
+Update Contact: Double-click on a contact in the table to select it, and then click the "Update" button to open a window to update the selected contact's information.
+Delete Contact: Select one or more contacts in the table and click the "DELETE" button to delete the selected contacts from the system.
+View Contacts: All contacts in the system are displayed in the table with columns for MemberID, Firstname, Lastname, Gender, Age, Address, and Contact.
+Database
+The application uses an SQLite database to store contact information. The database file (pythontut.db) will be created in the same directory as the Python script if it doesn't exist already. The database table member is used to store contact details.
